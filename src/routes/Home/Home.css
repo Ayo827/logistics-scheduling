@@ -1,0 +1,27 @@
+.Home{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    height: fit-content;
+    background-color: rgb(227, 232, 239);
+    flex-grow: 1;
+}
+.Home__main{
+    width: 100%;
+    display: flex;
+}
+.home__section{
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    flex-grow: 1;
+    align-items: center;
+    flex-direction: column;
+}
+.home__section__inner{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

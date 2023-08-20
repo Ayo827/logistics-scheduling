@@ -1,0 +1,30 @@
+.progress{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(203, 202, 203);
+    padding: 10px;
+    height: 71px;
+}
+.progress_container{
+    display: flex;
+    width: 100%;
+    align-items: start;
+    height: 100%;
+    justify-content: start;
+}
+.progress_col{
+    padding: 4px;
+    width: 100%;
+    background-color: rgb(147, 202, 238);
+    border-radius: 5px;
+}
+.progress_col p{
+    font-size: 12px;
+    font-weight: lighter;
+    text-transform: capitalize;
+}
+.progress_col p:first-child{
+    font-weight: 500;
+    
+}

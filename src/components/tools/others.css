@@ -1,0 +1,21 @@
+.Others, .others_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Others{
+    width: 50%;
+}
+.others_list{
+    justify-content: space-evenly;
+    width: 80%;
+}
+.others_list li{
+    list-style: none;
+    cursor: pointer;
+}
+.Others img{
+    width: 100px;
+    height: fit-content;
+    object-fit: cover;
+}

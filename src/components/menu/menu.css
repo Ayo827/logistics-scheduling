@@ -1,0 +1,10 @@
+.Menu{
+    width: 15%;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.Menu__content{
+    flex-grow: 1;
+    background-color: rgb(0, 86, 144);
+}

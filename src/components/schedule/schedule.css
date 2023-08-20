@@ -1,0 +1,120 @@
+.schedule, .schedule__top, .schedule__select{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.schedule{
+    height: fit-content;
+border: 1px solid rgb(203, 202, 203);;
+padding: 10px;
+border-radius: 10px;
+margin-top: 20px;
+
+}
+.schedule__top{
+    margin-bottom: 20px;
+}
+.schedule__top, .schedule__select{
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.schedule__select p{
+    font-size: 12px;
+    color: #000;
+    font-weight: 500;
+}
+.schedule__dropdown{
+    border: 2px solid rgb(203, 202, 203);
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+}
+.Dropdown-control{
+    padding: 0px!important;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px !important;
+}
+.Dropdown-arrow-wrapper{
+    width: 20px;
+    height: 100%;
+    background-color: rgb(203, 202, 203);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Dropdown-placeholder{
+    font-size: 12px;
+    color: rgb(203, 202, 203);
+    font-weight: bold;
+}
+.Dropdown-arrow{
+    position: unset !important;
+    margin: 0 !important;
+}
+.schedule__select__button{
+    width: fit-content;
+}
+.schedule__select__button button{
+    width: 50px;
+    height: 30px;
+    border: 2px solid rgb(240, 244, 252);
+    border-radius: 2px;
+    background-color: rgb(240, 244, 252);
+}
+.schedule__select__button button:focus, .schedule__select__button button:nth-child(2){
+    background-color: rgb(0, 86, 144);
+    border: 2px solid rgb(0, 86, 144);
+    color: #fff;
+}
+.schedule__bottom, .schedule_container, .schedule_table{
+    height: 100%;
+}
+.schedule__bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.schedule_container{
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    align-items: start;
+}
+.schedule_table{
+    width: 100%;
+    border: 2px solid rgb(203, 202, 203);;
+    background-color: #fff;
+    display: flex;
+}
+.schedule_table_side2 {
+    width: 469.58px;
+    display: flex;
+  flex-direction: column;
+}
+.schedule_table_header_side2{
+    width: 100%;
+    justify-content: space-evenly !important;
+}
+.schedule_table_side1{
+    width: 200px;
+    height: 100%;
+    border-right: 1px solid;
+}
+.schedule_table_header{
+    border-bottom: 2px solid rgb(203, 202, 203);;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.schedule_table_header p,.schedule_table_side2 p{
+    color: #000;
+    font-weight: 500;
+    font-size: 15px;
+}
