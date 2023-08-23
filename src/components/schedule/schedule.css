@@ -93,7 +93,7 @@ margin-top: 20px;
     display: flex;
 }
 .schedule_table_side2 {
-    width: 469.58px;
+    width: 100%;
     display: flex;
   flex-direction: column;
 }
